@@ -1,0 +1,15 @@
+{
+  "name": "claude-code-book",
+  "version": "1.0.0",
+  "description": "深入 Claude Code：AI Agent 架构与源码解析",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it-pangu": "^1.0.2",
+    "vitepress": "^1.6.4"
+  }
+}
