@@ -15,16 +15,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # 静态站点由本地 `npm run build` 生成并提交到 src/.vitepress/dist/，此处仅上传部署
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run build
+      - name: Verify pre-built site
+        run: test -f src/.vitepress/dist/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: src/.vitepress/dist

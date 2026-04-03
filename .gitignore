@@ -1,5 +1,5 @@
 node_modules/
 src/.vitepress/cache/
-src/.vitepress/dist/
+# dist/ 由本地 `npm run build` 生成并提交，供 GitHub Pages 直接部署（CI 不再执行构建）
 .DS_Store
 cookie.json

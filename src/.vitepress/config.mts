@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(
+  defineConfig({
   title: '深入 Claude Code',
   description: 'AI Agent 架构与源码解析',
   lang: 'zh-CN',
@@ -92,4 +94,5 @@ export default defineConfig({
       provider: 'local'
     }
   }
-})
+  })
+)
