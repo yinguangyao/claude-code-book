@@ -78,6 +78,25 @@ export default withMermaid(
           { text: '第 15 章：状态管理与终端 UI', link: '/part6-advanced/15-state-ui' },
           { text: '第 16 章：多 Agent 协作与高级模式', link: '/part6-advanced/16-multi-agent' }
         ]
+      },
+      {
+        text: '第七部分：数据与状态层',
+        collapsed: false,
+        items: [
+          { text: '第 17 章：附件系统', link: '/part7-data-layer/17-attachment-system' },
+          { text: '第 18 章：记忆系统', link: '/part7-data-layer/18-memory-system' },
+          { text: '第 19 章：会话持久化与历史管理', link: '/part7-data-layer/19-session-history' },
+          { text: '第 20 章：任务管理系统', link: '/part7-data-layer/20-task-management' }
+        ]
+      },
+      {
+        text: '第八部分：基础设施',
+        collapsed: false,
+        items: [
+          { text: '第 21 章：配置系统', link: '/part8-infra/21-config-settings' },
+          { text: '第 22 章：认证与安全存储', link: '/part8-infra/22-auth-security' },
+          { text: '第 23 章：费用追踪与遥测', link: '/part8-infra/23-cost-telemetry' }
+        ]
       }
     ],
 
