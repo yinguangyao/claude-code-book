@@ -4,6 +4,9 @@
 
 基于 Claude Code v2.1.88 真实源码，从启动流程到 Agent Loop、工具系统、权限模型，沿执行路径逐层递进，面向了解 Agent 概念的前端/全栈工程师，聚焦工程实现而非理论。
 
+[深入 Claude Code
+](https://yinguangyao.github.io/claude-code-book/)
+
 ## 目录
 
 ### 第一部分：全局视角
